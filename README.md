@@ -12,13 +12,23 @@ Source code of Info 2-OS course exercises @ UniBg - Computer Engineering 2020/20
 * [2.4](exe0/parte2/esercizio4)
 
 ## exe_1
-* [Counter](exe1/parte1/Counter)
+* [Counter semafori](exe1/parte1/Counter)
 * [Scaffali](exe1/parte2/Scaffali)
+
+## exe_2
+* [Counter sync](exe2/parte1/Counter)
 
 ## Multithreading
 * [Thread, Join, Interrupt](os-multithread/src)
 
 ## Semaphore
 * [CokeMachine](os-semafori/src/CokeMachine)
-* [SafeBridge](os-semafori/src/SafeBridge)
-* [BoundedBuffer](os-semafori/src/boundedbuffer)
+* [SafeBridge semafori](os-semafori/src/SafeBridge)
+* [BoundedBuffer semafori](os-semafori/src/boundedbuffer)
+
+## Sync direct/indirect
+* [BankAccount](os-sync/src/Bankaccount)
+* [BoundedBuffer sync](os-sync/src/boundedbuffer)
+* [Lettori-Scrittori](os-sync/src/lettoriscrittori)
+* [Lettori-Scrittori no starvation](os-sync/src/lettoriscrittorinostar)
+* [SafeBridge sync](os-sync/src/safebridge)

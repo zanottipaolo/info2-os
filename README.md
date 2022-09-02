@@ -17,6 +17,9 @@ Source code of Info 2-OS course exercises @ UniBg - Computer Engineering 2020/20
 
 ## exe_2
 * [Counter sync](exe2/parte1/Counter)
+* [CokeMachine sync](exe2/parte2/CokeMachine)
+* [ContoFamiglia](exe2/parte2/ContoFamiglia)
+* [Scaffali sync](exe2/parte2/Scaffali)
 
 ## Multithreading
 * [Thread, Join, Interrupt](os-multithread/src)

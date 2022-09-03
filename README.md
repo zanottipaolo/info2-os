@@ -21,6 +21,10 @@ Source code of Info 2-OS course exercises @ UniBg - Computer Engineering 2020/20
 * [ContoFamiglia](exe2/parte2/ContoFamiglia)
 * [Scaffali sync](exe2/parte2/Scaffali)
 
+## exe_3
+* [Idromassaggio](exe3/src/idromassaggio)
+* [Scaffali Lock&Var](exe3/src/scaffali)
+
 ## Multithreading
 * [Thread, Join, Interrupt](os-multithread/src)
 
@@ -35,3 +39,7 @@ Source code of Info 2-OS course exercises @ UniBg - Computer Engineering 2020/20
 * [Lettori-Scrittori](os-sync/src/lettoriscrittori)
 * [Lettori-Scrittori no starvation](os-sync/src/lettoriscrittorinostar)
 * [SafeBridge sync](os-sync/src/safebridge)
+
+## Lock and Condition Variables
+* [Bar](os-lock&var/src/bar)
+* [BoundedBuffer Lock&Var](os-lock&var/src/boundedbuffer)

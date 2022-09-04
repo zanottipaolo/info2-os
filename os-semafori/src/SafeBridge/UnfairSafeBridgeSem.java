@@ -102,6 +102,9 @@ public class UnfairSafeBridgeSem implements Bridge {
 		else if(wBlue > 0){
 			// sveglia un'auto blu in attesa che quindi può procedere con il turnBlue.acquire() della riga 151
 			turnBlue.release();
+			
+			nBlue++;
+			wBlue--;
 		}
 		
 		System.out.println(Thread.currentThread().getName() + " sta uscendo. Nred = " + nRed + ", Nblue: " + 
@@ -183,6 +186,9 @@ public class UnfairSafeBridgeSem implements Bridge {
 		else if(wRed > 0){
 			// sveglia un'auto rossa in attesa che quindi può procedere con il turnRed.acquire() della riga 68
 			turnRed.release();
+			
+			nRed++;
+			wRed--;
 		}
 		
 		System.out.println(Thread.currentThread().getName() + " sta uscendo. Nred = " + nRed + ", Nblue: " + 
